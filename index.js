@@ -134,7 +134,7 @@ function countdown(seconds, onFinish) {
     const seconds = remainingTime % 60;
 
     const timeLeft = `${String(hours).padStart(2, '0')}:${String(minutes).padStart(2, '0')}:${String(seconds).padStart(2, '0')}`;
-    process.stdout.write(`⏳ 等待 ${timeLeft} 再次运行...`);
+    process.stdout.write(`⏳ 等待 ${timeLeft} 再次运行... `);
 
     remainingTime--;
 
